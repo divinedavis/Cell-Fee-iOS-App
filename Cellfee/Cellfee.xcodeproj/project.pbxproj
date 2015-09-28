@@ -14,6 +14,7 @@
 		16242B021BB9F71A009DC710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16242B001BB9F71A009DC710 /* LaunchScreen.storyboard */; };
 		16242B0D1BB9F71A009DC710 /* CellfeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16242B0C1BB9F71A009DC710 /* CellfeeTests.swift */; };
 		16242B181BB9F71A009DC710 /* CellfeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16242B171BB9F71A009DC710 /* CellfeeUITests.swift */; };
+		16242B261BB9F7D1009DC710 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16242B251BB9F7D1009DC710 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		16242B131BB9F71A009DC710 /* CellfeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellfeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16242B171BB9F71A009DC710 /* CellfeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellfeeUITests.swift; sourceTree = "<group>"; };
 		16242B191BB9F71A009DC710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16242B251BB9F7D1009DC710 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16242B261BB9F7D1009DC710 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		16242AEB1BB9F719009DC710 = {
 			isa = PBXGroup;
 			children = (
+				16242B251BB9F7D1009DC710 /* Social.framework */,
 				16242AF61BB9F719009DC710 /* Cellfee */,
 				16242B0B1BB9F71A009DC710 /* CellfeeTests */,
 				16242B161BB9F71A009DC710 /* CellfeeUITests */,
