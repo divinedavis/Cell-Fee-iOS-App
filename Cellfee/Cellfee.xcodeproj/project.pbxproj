@@ -10,11 +10,12 @@
 		16242AF81BB9F719009DC710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16242AF71BB9F719009DC710 /* AppDelegate.swift */; };
 		16242AFA1BB9F719009DC710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16242AF91BB9F719009DC710 /* ViewController.swift */; };
 		16242AFD1BB9F719009DC710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16242AFB1BB9F719009DC710 /* Main.storyboard */; };
-		16242AFF1BB9F719009DC710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16242AFE1BB9F719009DC710 /* Assets.xcassets */; };
 		16242B021BB9F71A009DC710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16242B001BB9F71A009DC710 /* LaunchScreen.storyboard */; };
 		16242B0D1BB9F71A009DC710 /* CellfeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16242B0C1BB9F71A009DC710 /* CellfeeTests.swift */; };
 		16242B181BB9F71A009DC710 /* CellfeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16242B171BB9F71A009DC710 /* CellfeeUITests.swift */; };
 		16242B261BB9F7D1009DC710 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16242B251BB9F7D1009DC710 /* Social.framework */; };
+		16242B281BBA0CC9009DC710 /* App Icons in Resources */ = {isa = PBXBuildFile; fileRef = 16242B271BBA0CC9009DC710 /* App Icons */; settings = {ASSET_TAGS = (); }; };
+		16242B2A1BBA0D1F009DC710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16242B291BBA0D1F009DC710 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		16242AF71BB9F719009DC710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16242AF91BB9F719009DC710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		16242AFC1BB9F719009DC710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		16242AFE1BB9F719009DC710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16242B011BB9F71A009DC710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16242B031BB9F71A009DC710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16242B081BB9F71A009DC710 /* CellfeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellfeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +49,8 @@
 		16242B171BB9F71A009DC710 /* CellfeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellfeeUITests.swift; sourceTree = "<group>"; };
 		16242B191BB9F71A009DC710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16242B251BB9F7D1009DC710 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		16242B271BBA0CC9009DC710 /* App Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "App Icons"; path = "../../../../Downloads/Introducing-iOS8/Selfie-Icons/App Icons"; sourceTree = "<group>"; };
+		16242B291BBA0D1F009DC710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +106,10 @@
 				16242AF71BB9F719009DC710 /* AppDelegate.swift */,
 				16242AF91BB9F719009DC710 /* ViewController.swift */,
 				16242AFB1BB9F719009DC710 /* Main.storyboard */,
-				16242AFE1BB9F719009DC710 /* Assets.xcassets */,
+				16242B291BBA0D1F009DC710 /* Assets.xcassets */,
 				16242B001BB9F71A009DC710 /* LaunchScreen.storyboard */,
 				16242B031BB9F71A009DC710 /* Info.plist */,
+				16242B271BBA0CC9009DC710 /* App Icons */,
 			);
 			path = Cellfee;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					16242AF31BB9F719009DC710 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CG89RY4W6R;
 					};
 					16242B071BB9F71A009DC710 = {
 						CreatedOnToolsVersion = 7.0;
@@ -233,7 +237,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				16242B021BB9F71A009DC710 /* LaunchScreen.storyboard in Resources */,
-				16242AFF1BB9F719009DC710 /* Assets.xcassets in Resources */,
+				16242B281BBA0CC9009DC710 /* App Icons in Resources */,
+				16242B2A1BBA0D1F009DC710 /* Assets.xcassets in Resources */,
 				16242AFD1BB9F719009DC710 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,10 +405,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Cellfee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = divinedavis.Cellfee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -411,10 +419,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Cellfee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = divinedavis.Cellfee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--Selfie-->
+        <!--Cell Fee-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cellfee" customModuleProvider="target" sceneMemberID="viewController">
@@ -28,7 +28,7 @@
                             <constraint firstAttribute="trailing" secondItem="vx4-pd-twO" secondAttribute="trailing" id="dG3-rZ-Ybe"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Selfie" id="0BX-p6-J6t">
+                    <navigationItem key="navigationItem" title="Cell Fee" id="0BX-p6-J6t">
                         <barButtonItem key="leftBarButtonItem" systemItem="camera" id="bjJ-iY-Vez">
                             <connections>
                                 <action selector="selfieTapped:" destination="BYZ-38-t0r" id="mze-YL-Nam"/>

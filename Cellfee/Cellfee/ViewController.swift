@@ -16,6 +16,17 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     
     @IBAction func selfieTapped(sender: AnyObject) {
         
+        //this method will be called when the user has taken a photo or has selected a photo from the photo library
+        func imagePickerController(picker: UIImagePickerController!, didFinishPickingImage image: UIImage!, editingInfo: NSDictionary!) {
+            
+            //takes the image parameter and displays it inside myImageView
+            myImageView.image = image
+            
+            //hides the imagePicker and animates the transition
+            self.dismissViewControllerAnimated(true, completion: nil)
+            
+        }
+        
         //creates a new UIImagePickerController and sets it to the imagePicker variable
         let imagePicker = UIImagePickerController()
         
@@ -65,16 +76,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         
     }
     
-    //this method will be called when the user has taken a photo or has selected a photo from the photo library
-    func imagePickerController(picker: UIImagePickerController!, didFinishPickingImage image: UIImage!, editingInfo: NSDictionary!) {
-        
-        //takes the image parameter and displays it inside myImageView
-        myImageView.image = image
-        
-        //hides the imagePicker and animates the transition
-        self.dismissViewControllerAnimated(true, completion: nil)
-        
-    }
+    
 
 
 }
